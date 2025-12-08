@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TransitionRisk.org — Neutral banner for transition risk frameworks</title>
+  <meta name="description" content="TransitionRisk.org — independent, descriptive .org domain reserved as a neutral banner for transition risk frameworks, climate stress-testing methodologies and disclosures in climate-related financial risk." />
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://www.transitionrisk.org/" />
+  <link rel="alternate" href="https://www.transitionrisk.org/" hreflang="fr" />
+  <link rel="alternate" href="https://www.transitionrisk.org/" hreflang="en" />
+  <link rel="alternate" href="https://www.transitionrisk.org/" hreflang="x-default" />
+  <meta name="robots" content="index,follow,max-image-preview:large">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="TransitionRisk.org — Neutral banner for transition risk frameworks" />
+  <meta property="og:description" content="Independent, descriptive .org domain designed as a neutral banner for transition risk frameworks, climate stress tests and prudential narratives in climate-related financial risk." />
+  <meta property="og:url" content="https://www.transitionrisk.org/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.transitionrisk.org/og.jpg" />
+  <meta property="og:image:alt" content="TransitionRisk.org — descriptive digital asset for transition risk frameworks" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://www.transitionrisk.org/og.jpg" />
+
+  <!-- Icons & preload -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" as="image" href="/logo-transitionrisk.png" imagesizes="260px" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TransitionRisk.org",
+    "url": "https://www.transitionrisk.org/",
+    "inLanguage": ["fr-FR","en-GB","en-US"],
+    "description": "Independent, descriptive .org domain reserved as a neutral banner for transition risk frameworks, climate stress testing and climate-related financial risk methodologies.",
+    "sameAs": ["https://www.linkedin.com/company/transitionrisk"],
+    "potentialAction": {
+      "@type": "CommunicateAction",
+      "target": "mailto:contact@transitionrisk.org"
+    }
+  }
+  </script>
+
+  <!-- Styles -->
+  <style>
+    :root{
+      --bg:#020815;
+      --card:#081120;
+      --muted:#8791b0;
+      --text:#e8eefc;
+      --accent:#7fd0ff;
+      --chip:#101b34;
+      --shadow:0 10px 30px rgba(0,0,0,.45);
+      --radius:18px
+    }
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--text);
+      font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px;margin:0 auto;padding:28px}
+    .topbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin:8px 0 22px
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:var(--chip);
+      border:1px solid #1d2946;
+      border-radius:999px;
+      padding:6px 12px;
+      color:#c1ccec;
+      font-size:13px
+    }
+    .badge-dot{
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background:radial-gradient(circle,#4ade80 0,#16a34a 55%,#052e16 100%);
+      box-shadow:0 0 0 6px rgba(34,197,94,.25);
+    }
+    .lang{
+      gap:10px;
+      display:flex;
+      align-items:center
+    }
+    .lang button{
+      background:var(--chip);
+      color:var(--text);
+      border:1px solid #1d2946;
+      padding:7px 12px;
+      border-radius:999px;
+      cursor:pointer;
+      font-size:13px;
+    }
+    .lang button[aria-pressed="true"]{
+      background:var(--accent);
+      color:#020815;
+      border-color:transparent
+    }
+    .card{
+      background:var(--card);
+      border:1px solid #1d2946;
+      border-radius:var(--radius);
+      padding:26px;
+      box-shadow:var(--shadow)
+    }
+    .hero h1{
+      margin:0 0 8px;
+      font-size:44px;
+      letter-spacing:.4px
+    }
+    .cta{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin:18px 0 6px
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:#122143;
+      color:#fff;
+      border:1px solid #21325b;
+      padding:11px 16px;
+      border-radius:999px;
+      cursor:pointer;
+      text-decoration:none;
+      font-size:14px
+    }
+    .btn.primary{
+      background:var(--accent);
+      color:#020815;
+      border-color:transparent
+    }
+    .btn.btn-concept{
+      background:transparent;
+      color:var(--accent);
+      border-radius:999px;
+      border:1px solid rgba(143,176,255,0.85);
+      box-shadow:0 0 0 1px rgba(2,8,21,0.9);
+      padding:9px 16px;
+      font-size:14px;
+    }
+    .btn.btn-concept:hover{
+      text-decoration:none;
+      background:rgba(143,176,255,0.06);
+    }
+    .btn.btn-concept .cn-icon{
+      width:14px;
+      height:14px;
+      border-radius:4px;
+      background:linear-gradient(135deg,#7fd0ff,#4a8dff);
+      display:inline-block;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:18px
+    }
+    .col-6{grid-column:span 6}
+    .col-12{grid-column:span 12}
+    .chip{
+      display:inline-block;
+      background:var(--chip);
+      border:1px solid #1d2946;
+      border-radius:999px;
+      padding:6px 10px;
+      font-size:13px;
+      color:#c1ccec
+    }
+    .list{
+      display:grid;
+      gap:10px;
+      margin:8px 0
+    }
+    .muted{color:var(--muted)}
+    .foot{opacity:.8;font-size:13px;margin-top:24px}
+    img.logo{
+      max-width:260px;
+      height:auto;
+      display:block;
+      margin:10px 0 10px;
+      opacity:.97;
+      border-radius:14px
+    }
+    @media (max-width:860px){
+      .col-6{grid-column:span 12}
+      .hero h1{font-size:34px}
+    }
+    .ico{width:16px;height:16px;display:inline-block;vertical-align:middle}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span>Digital assets available for acquisition</span>
+      </div>
+      <div class="lang">
+        <button id="btn-fr" aria-pressed="false">FR</button>
+        <button id="btn-en" aria-pressed="true">EN</button>
+      </div>
+    </div>
+
+    <!-- ================ HERO EN ================= -->
+    <section class="card hero" data-en>
+      <h1>TransitionRisk.org</h1>
+      <img class="logo" src="/logo-transitionrisk.png" alt="TransitionRisk.org" loading="eager">
+      <p class="muted">
+        <b>Descriptive .org domain</b> for the notion of <b>“transition risk”</b> in climate-related
+        financial risk: policy, technology, market, legal and reputational risks arising from the
+        transition to a low-greenhouse-gas economy.<br>
+        TransitionRisk.org is designed as an <b>independent, neutral banner</b> for
+        <b>transition risk frameworks, stress-testing methodologies, disclosures and observatories</b>
+        used by central banks, supervisors, financial institutions and data providers.<br>
+        It sits at the intersection of <b>prudential supervision, scenario analysis, climate policy
+        and portfolio management</b>, and can host public-facing programmes on transition risk
+        stress tests, indicators and narratives.<br>
+        Intended for <b>public institutions, supervisors, international organisations and large
+        regulated groups</b> that need a clear, non-proprietary label to structure their transition
+        risk work at Board and policy level.<br>
+        <b>Serious institutional enquiries only</b> (central banks, supervisors, public bodies,
+        foundations, alliances, qualified institutional buyers).
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:contact@transitionrisk.org?subject=TransitionRisk.org%20-%20NDA%20%2F%20Offer">
+          Submit an offer / Request NDA
+        </a>
+        <a class="btn btn-concept" href="/concept-note.html">
+          <span class="cn-icon"></span>
+          Concept Note
+        </a>
+        <a class="btn" href="#value-en">Why this name?</a>
+        <a class="btn" href="https://www.linkedin.com/company/transitionrisk" target="_blank" rel="noopener" aria-label="Open TransitionRisk.org on LinkedIn">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.85 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.13V23h-4v-6.5z"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted" style="margin-top:8px">
+        <b>Important notice:</b> TransitionRisk.org is a <b>descriptive semantic asset</b>.
+        It is not a regulator, central bank, rating agency, ESG data provider, climate model
+        or software platform, and <b>does not</b> offer any consulting, advisory or stress-testing
+        services. This site does <b>not</b> provide legal, regulatory, accounting, tax, financial or
+        investment advice. Any future framework, observatory or portal under this banner would
+        be entirely designed and operated by its acquirer under its own responsibilities.
+      </p>
+    </section>
+
+    <!-- ================ VALUE EN ================= -->
+    <section id="value-en" class="card" style="margin-top:16px" data-en>
+      <div class="grid">
+        <div class="col-6">
+          <h3>Why TransitionRisk.org is valuable</h3>
+          <div class="list">
+            <div class="chip">Exact-match, board-level wording for “transition risk”, already used across TCFD, NGFS, IFRS S2 and supervisory guidance.</div>
+            <div class="chip">Neutral .org banner suitable for observatories, frameworks and documentation hubs, distinct from any proprietary vendor brand.</div>
+            <div class="chip">Conceptual bridge between climate scenarios, prudential capital frameworks, portfolio steering and public communication.</div>
+            <div class="chip">Single global reference name if “transition risk” consolidates as a standard prudential and accounting risk category.</div>
+            <div class="chip">Durable anchor for reports, dashboards, stress-testing libraries and long-term programmes on transition risk governance.</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Illustrative use cases</h3>
+          <div class="list">
+            <div class="chip">“Transition Risk Observatory” aggregating reports, guidance and indicators from central banks, supervisors and international bodies.</div>
+            <div class="chip">Neutral entry point to transition risk stress-testing methodologies, scenario libraries and implementation guides.</div>
+            <div class="chip">Public-facing hub for transition risk disclosures, case studies and sectoral analyses.</div>
+            <div class="chip">Banner for a group-wide “Transition Risk Framework” integrating transition risk across ICAAP/ORSA, strategy and capital planning.</div>
+            <div class="chip">Knowledge centre for supervisory and policy communities working on climate-related financial risk.</div>
+          </div>
+        </div>
+      </div>
+      <p class="muted">
+        This site does <b>not</b> sell software, data, indices, advisory or rating services.
+        It offers the <b>TransitionRisk.org</b> domain name as an independent, descriptive
+        digital asset. Any technical solutions, methodologies or frameworks developed under
+        this label would be fully designed and validated by the acquirer, under its own
+        governance and applicable laws.
+      </p>
+    </section>
+
+    <!-- ================ RELATED EN ================= -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Related assets (climate, nature & solvency thesis)</h3>
+      <p class="muted">
+        Depending on its strategy, a future owner may decide to position
+        <b>TransitionRisk.org</b> alongside other descriptive assets addressing climate,
+        nature and solvency themes:
+      </p>
+      <div class="list">
+        <a class="chip" href="https://www.climatesolvency.com" target="_blank" rel="noopener">ClimateSolvency.com</a>
+        <a class="chip" href="https://www.energysolvency.com" target="_blank" rel="noopener">EnergySolvency.com</a>
+        <a class="chip" href="https://www.naturesolvency.com" target="_blank" rel="noopener">NatureSolvency.com</a>
+        <a class="chip" href="https://www.globalriskarchitecture.com" target="_blank" rel="noopener">GlobalRiskArchitecture.com</a>
+      </div>
+      <p class="muted">
+        These examples are illustrative only. This site offers for sale the
+        <b>TransitionRisk.org</b> domain name as a standalone asset. Any bundle or
+        coordination with other domains would be decided solely by the acquirer.
+      </p>
+    </section>
+
+    <!-- ================ ACQUISITION EN ================= -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Acquisition (secure process)</h3>
+      <p class="muted">
+        A typical institutional flow: <b>NDA → strategic discussion → formal offer
+        → escrow → domain transfer</b>. The transaction focuses on the
+        <b>TransitionRisk.org</b> domain name as an intangible digital asset.
+        No software, dataset, methodology, consulting or rating activity is included
+        unless explicitly agreed in a separate contract.
+      </p>
+      <a class="btn primary" href="mailto:contact@transitionrisk.org?subject=TransitionRisk.org%20-%20NDA%20%2F%20Offer">
+        Direct contact: contact@transitionrisk.org
+      </a>
+    </section>
+
+    <!-- ================ DOCS EN ================= -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Documents / Briefs</h3>
+      <p class="muted">
+        Detailed TransitionRisk.org acquisition brief (2025-11) available in
+        English for Risk, Finance, Climate, Prudential Policy and Strategy teams.
+      </p>
+      <div class="cta">
+        <a class="btn" href="/Acquisition%20Brief%20transitionrisk-EN-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
+          👁️ Open Brief (EN)
+        </a>
+        <a class="btn primary" href="/Acquisition%20Brief%20transitionrisk-EN-202511.pdf" download="Acquisition-Brief-TransitionRisk-EN-202511.pdf" type="application/pdf">
+          📥 Download (EN, PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- ================ HERO FR ================= -->
+    <section class="card hero" data-fr hidden>
+      <h1>TransitionRisk.org</h1>
+      <img class="logo" src="/logo-transitionrisk.png" alt="TransitionRisk.org" loading="eager">
+      <p class="muted">
+        Nom de domaine <b>descriptif en .org</b> pour la notion de
+        <b>« risque de transition »</b> en finance climat : risques politiques,
+        technologiques, de marché, juridiques et de réputation liés à la transition
+        vers une économie bas-carbone.<br>
+        TransitionRisk.org est conçu comme <b>bannière neutre et indépendante</b> pour
+        les <b>cadres de risque de transition, scénarios et stress-tests climat</b>,
+        utilisés par les banques centrales, superviseurs prudentiels, institutions
+        financières et fournisseurs de données.<br>
+        Il se situe au croisement de la <b>supervision prudentielle, des scénarios
+        climat, de la politique publique et du pilotage de portefeuille</b>, et peut
+        porter des programmes publics sur les stress-tests de transition, indicateurs
+        et narratifs associés.<br>
+        Destiné en priorité aux <b>institutions publiques, superviseurs, organisations
+        internationales et grands groupes régulés</b> qui recherchent une bannière
+        claire, non propriétaire, pour structurer leurs travaux sur le risque de
+        transition au niveau des conseils et des politiques publiques.<br>
+        <b>Offres institutionnelles uniquement</b> (banques centrales, autorités,
+        organismes publics, fondations, alliances, investisseurs institutionnels
+        qualifiés).
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:contact@transitionrisk.org?subject=TransitionRisk.org%20-%20NDA%20%2F%20Proposition">
+          Proposer une offre / Demander un NDA
+        </a>
+        <a class="btn" href="#value-fr">Pourquoi ce nom ?</a>
+        <a class="btn" href="https://www.linkedin.com/company/transitionrisk" target="_blank" rel="noopener" aria-label="Ouvrir la page LinkedIn TransitionRisk.org">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.85 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.13V23h-4v-6.5z"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted" style="margin-top:8px">
+        <b>Nota important :</b> TransitionRisk.org est un <b>actif sémantique descriptif</b>.
+        Il ne constitue ni un régulateur, ni une banque centrale, ni une agence de
+        notation ou de données ESG, ni un modèle ou logiciel de risque climat, et ne
+        fournit <b>aucun</b> service de conseil ou d’audit. Ce site ne délivre
+        <b>aucun avis juridique, réglementaire, comptable, fiscal, financier ou
+        d’investissement</b>. Tout cadre, observatoire ou portail créé sous cette
+        bannière serait intégralement conçu et opéré par son acquéreur, sous sa
+        seule responsabilité.
+      </p>
+    </section>
+
+    <!-- ================ VALUE FR ================= -->
+    <section id="value-fr" class="card" style="margin-top:16px" data-fr hidden>
+      <div class="grid">
+        <div class="col-6">
+          <h3>Pourquoi TransitionRisk.org a de la valeur</h3>
+          <div class="list">
+            <div class="chip">Expression exacte et immédiatement compréhensible pour les conseils, fonctions risques et superviseurs travaillant sur le « risque de transition ».</div>
+            <div class="chip">Bannière neutre en .org, adaptée à un observatoire, un cadre de référence ou un portail documentaire, distincte de toute marque commerciale.</div>
+            <div class="chip">Pont conceptuel entre scénarios climat, exigences prudentielles, pilotage de portefeuille et communication externe.</div>
+            <div class="chip">Point de référence naturel si le « risque de transition » s’impose comme catégorie standard des cadres prudentiels et comptables.</div>
+            <div class="chip">Ancrage durable pour rapports, tableaux de bord, bibliothèques de scénarios et programmes de long terme sur la gouvernance du risque de transition.</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h3>Exemples de cas d’usage</h3>
+          <div class="list">
+            <div class="chip">« Transition Risk Observatory » regroupant rapports, guides et indicateurs issus de banques centrales, superviseurs et organisations internationales.</div>
+            <div class="chip">Point d’entrée neutre vers les méthodologies de stress-tests de transition, scénarios et guides d’implémentation.</div>
+            <div class="chip">Hub public pour les divulgations de risque de transition, études de cas et analyses sectorielles.</div>
+            <div class="chip">Bannière d’un « Transition Risk Framework » groupe intégrant le risque de transition dans l’ICAAP/ORSA, la stratégie et la planification du capital.</div>
+            <div class="chip">Centre de connaissances pour les communautés de superviseurs et de politique publique sur la finance climat.</div>
+          </div>
+        </div>
+      </div>
+      <p class="muted">
+        Ce site ne vend <b>ni logiciel, ni base de données, ni indice, ni service de
+        conseil ou de notation</b>. Il propose le <b>nom de domaine TransitionRisk.org</b>
+        en tant qu’actif numérique descriptif et indépendant. Toute solution technique,
+        méthodologie ou offre développée autour de cette dénomination relèvera de
+        l’acquéreur, sous sa seule responsabilité et dans le respect des cadres
+        applicables.
+      </p>
+    </section>
+
+    <!-- ================ AUTRES ACTIFS FR ================= -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Actifs associés (climat, nature & solvabilité)</h3>
+      <p class="muted">
+        Selon sa stratégie, un acquéreur pourra articuler
+        <b>TransitionRisk.org</b> avec d’autres actifs descriptifs du même portefeuille,
+        afin de construire un ensemble cohérent « climat, nature, solvabilité » :
+      </p>
+      <div class="list">
+        <a class="chip" href="https://www.climatesolvency.com" target="_blank" rel="noopener">ClimateSolvency.com</a>
+        <a class="chip" href="https://www.energysolvency.com" target="_blank" rel="noopener">EnergySolvency.com</a>
+        <a class="chip" href="https://www.naturesolvency.com" target="_blank" rel="noopener">NatureSolvency.com</a>
+        <a class="chip" href="https://www.globalriskarchitecture.com" target="_blank" rel="noopener">GlobalRiskArchitecture.com</a>
+      </div>
+      <p class="muted">
+        Ces exemples sont fournis à titre illustratif. Sur ce site, seul le nom de
+        domaine <b>TransitionRisk.org</b> est proposé à l’acquisition, toute logique de
+        bundle ou d’architecture restant à la discrétion de l’acquéreur.
+      </p>
+    </section>
+
+    <!-- ================ ACQUISITION FR ================= -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Acquisition (processus sécurisé)</h3>
+      <p class="muted">
+        Processus type : <b>NDA → échanges stratégiques → offre formelle →
+        escrow → transfert du domaine</b>. La transaction porte sur le
+        <b>nom de domaine TransitionRisk.org</b> en tant qu’actif numérique
+        incorporel. Aucun logiciel, modèle, base de données, label, conseil ou
+        service n’est inclus, sauf accord spécifique séparé.
+      </p>
+      <a class="btn primary" href="mailto:contact@transitionrisk.org?subject=TransitionRisk.org%20-%20NDA%20%2F%20Proposition">
+        Contact direct : contact@transitionrisk.org
+      </a>
+    </section>
+
+    <!-- ================ DOCS FR ================= -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Documents / Briefs</h3>
+      <p class="muted">
+        Brief d’acquisition détaillé TransitionRisk.org (2025-11) disponible en
+        français pour les équipes Risques, Finance, Climat, Régulation et
+        Stratégie.
+      </p>
+      <div class="cta">
+        <a class="btn" href="/Acquisition%20Brief%20transitionrisk-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
+          👁️ Ouvrir le Brief (FR)
+        </a>
+        <a class="btn primary" href="/Acquisition%20Brief%20transitionrisk-202511.pdf" download="Acquisition-Brief-TransitionRisk-FR-202511.pdf" type="application/pdf">
+          📥 Télécharger (FR, PDF)
+        </a>
+      </div>
+    </section>
+
+    <p class="foot muted">
+      © TransitionRisk.org — independent, descriptive digital asset for the emerging
+      discipline of “transition risk” in climate-related financial risk. No affiliation with
+      regulators, governments, international organisations, supervisors, companies or
+      initiatives mentioned on this site. Descriptive use only. No legal, regulatory,
+      accounting, tax, financial, investment or other professional advice is provided via
+      this site. Any future use of this domain will be under the full responsibility of its
+      legitimate acquirer. — Contact:
+      <a href="mailto:contact@transitionrisk.org">contact@transitionrisk.org</a>
+    </p>
+  </div>
+
+  <script>
+    const frBtn = document.getElementById('btn-fr');
+    const enBtn = document.getElementById('btn-en');
+
+    function show(lang){
+      document.querySelectorAll('[data-fr]').forEach(n => n.hidden = (lang !== 'fr'));
+      document.querySelectorAll('[data-en]').forEach(n => n.hidden = (lang !== 'en'));
+      frBtn.setAttribute('aria-pressed', String(lang === 'fr'));
+      enBtn.setAttribute('aria-pressed', String(lang === 'en'));
+      document.documentElement.lang = lang;
+    }
+
+    frBtn.addEventListener('click', () => show('fr'));
+    enBtn.addEventListener('click', () => show('en'));
+
+    (function initLang(){
+      show('en');
+    })();
+  </script>
+</body>
+</html>
